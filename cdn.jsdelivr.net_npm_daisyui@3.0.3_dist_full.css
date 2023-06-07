@@ -1924,10 +1924,7 @@ html {
     text-decoration-line: none;
     border-width: var(--border-btn, 1px);
     animation: button-pop var(--animation-btn, 0.25s) ease-out;
-
-    /* I don't need the text-transform: uppercase here...I'll do it myself if needed 🙂😉 */
-    /* text-transform: var(--btn-text-case, uppercase); */
-
+    text-transform: var(--btn-text-case, uppercase);
     --tw-border-opacity: 1;
     --tw-bg-opacity: 1;
     background-color: hsl(var(--b2) / var(--tw-bg-opacity));
